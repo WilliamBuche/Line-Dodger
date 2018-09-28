@@ -1,0 +1,41 @@
+* {margin: 0; padding: 0;}
+* {overflow: hidden}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('font.otf');
+}
+
+body{
+	background-color: #e3e6ed;
+}
+
+
+#pause{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: MyFont;
+    font-size: 100px;
+}​
+
+#bidon{}
+
+#instructions{
+	font-family: 'Orbitron', sans-serif;
+    font-size: 55px;
+	text-align: center;
+	margin-top: 5%
+}
+
+#title{
+	text-align: center;
+    font-family: MyFont;
+    font-size: 1000%;
+}
+
+#flash{
+	opacity: 1;
+}
